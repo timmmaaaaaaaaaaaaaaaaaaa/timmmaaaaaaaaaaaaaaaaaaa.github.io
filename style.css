@@ -1,0 +1,28 @@
+img:hover#smile {
+    animation: sepiaFilter .12s forwards;
+}
+
+@keyframes sepiaFilter {
+    from {
+        filter: sepia(0%);
+    }
+   
+    to {
+        filter: sepia(200%);
+    }
+}
+body{
+    background-image:url("GVEDhhU.jpg");
+}
+
+h1{
+    color: red;
+
+}
+h3{
+    color: red;
+
+}
+header{
+    color: red;
+}
